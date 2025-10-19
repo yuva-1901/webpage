@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Makeup Webpage</title>
+  <style>
+    * {
+      padding: 7px;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    #header {
+      display: flex;
+      height: 50px;
+      width: 100%;
+      background-color: deeppink;
+      flex-direction: row;
+      justify-content: space-between;
+      color: white;
+      align-items: center;
+      padding: 0 10px;
+    }
+    #main {
+      display: flex;
+      height: 70px;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 10px;
+    }
+    #nav {
+      background-color: rgb(235, 130, 186);
+      width: 90%;
+      color: white;
+      display: flex;
+      align-items: center;
+      padding-left: 10px;
+    }
+    #nav p {
+      margin: 0;
+      font-weight: bold;
+    }
+    #nav1 {
+      background-color: rgb(235, 130, 186);
+      width: 30%;
+      display: flex;
+      align-items: center;
+      padding-left: 10px;
+    }
+    #nav1 input {
+      width: 100%;
+      padding: 5px;
+      border: none;
+      border-radius: 3px;
+    }
+    #bm {
+      margin-top: 20px;
+      display: flex;
+      height: 500px;
+      width: 100%;
+    }
+    #bs1 {
+      width: 70%;
+      background-color: rgb(245, 212, 229);
+      color: black;
+      padding: 20px;
+      overflow-y: auto;
+    }
+    #bs2 {
+      width: 30%;
+      background-color: rgb(245, 212, 229);
+      padding: 20px;
+      overflow-y: auto;
+    }
+    #button {
+      margin-top: 20px;
+    }
+    #button button {
+      margin-right: 10px;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      background-color: deeppink;
+      color: white;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    #button button:hover {
+      background-color: hotpink;
+    }
+    ul {
+      margin-top: 10px;
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <div>Profile</div>
+    <div>Makeup Webpage</div>
+  </div>
+
+  <div id="main">
+    <div id="nav">
+      <p>Home &nbsp;&nbsp;&nbsp;&nbsp; About &nbsp;&nbsp;&nbsp;&nbsp; Services &nbsp;&nbsp;&nbsp;&nbsp; Contact</p>
+    </div>
+    <div id="nav1">
+      <input type="text" placeholder="Search... Your Products" />
+    </div>
+  </div>
+
+  <div id="bm">
+    <div id="bs1">
+      <h1>Welcome!</h1>
+      <p>Your Beauty, Your Confidence!</p>
+      <p>
+        We believe makeup is not just about looking good — it is about feeling fabulous! From subtle everyday looks to glamorous makeovers, we bring out the best version of you.
+      </p>
+      <h2>Featured Section</h2>
+      <h4>New Arrivals!</h4>
+      <ul>
+        <li>Explore our <i><b>latest lipstick shades</b></i> inspired by global fashion trends.</li>
+        <li>Try our <i><b>long-lasting foundation</b></i> for a flawless, all-day glow.</li>
+        <li>Exclusive <i><b>festival makeup packages</b></i> now available - limited time only!</li>
+      </ul>
+      <div id="button">
+        <button>Lipstick Shades</button>
+        <button>Foundation</button>
+        <button>Eye Makeup Collections</button>
+      </div>
+    </div>
+
+    <div id="bs2">
+      <h3>Side</h3>
+      <ul>
+        <li>Mehandi</li>
+        <li>Nail Art</li>
+        <li>Hair Cut</li>
+        <li>Makeup</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
